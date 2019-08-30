@@ -17,5 +17,5 @@ Vue.use(Vuetify, {
 new Vue({
   el: '#app',
   router,
-  render: h => h(App)
+  render: h = h(App)
 })
