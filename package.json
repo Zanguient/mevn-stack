@@ -2,6 +2,9 @@
   "name": "mevn",
   "version": "0.0.1",
   "private": true,
+  "engines": {
+    "node": "12.9.1"
+  },
   "scripts": {
     "start": "node -r dotenv/config ./bin/www",
     "dev:serve": "nodemon -r dotenv/config ./bin/www",
